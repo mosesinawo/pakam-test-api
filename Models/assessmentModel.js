@@ -14,7 +14,7 @@ const assessmentSchema = new mongoose.Schema(
       trim: true,
     },
     quantity: {
-      type: Number,
+      type: String,
       required: [true, "Quantity is required"],
     }
   },
